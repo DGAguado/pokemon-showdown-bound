@@ -5087,6 +5087,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['DUber', 'Dark Void'],
 	},
 	{
+		name: "[Gen 8 BDSP] VGC",
+		mod: 'gen8bdsp',
+		gameType: 'doubles',
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer'],
+	},
+	{
 		name: "[Gen 8] Doubles Custom Game",
 		mod: 'gen8',
 		gameType: 'doubles',
